@@ -6,11 +6,34 @@ body {
     font-family: 'Abril Fatface', cursive;
   }
 
-  .hello{
+  .about{
       margin-top: -1000px;
-      margin-left:35vw;
+      margin-left:34vw;
       color:#6b724e;
       font-size:150pt;
+  }
+
+  .about_info{
+      margin-top: -1000px;
+    margin-left:9vw;
+    margin-right:9vw;
+    color:#6b724e;
+    font-size:50pt;
+    text-align: center;
+  }
+
+  .about_jpii{
+    margin-left:40vw;
+    margin-right:9vw;
+    color:#6b724e;
+    font-size:28pt;
+    text-align: right;
+    margin-top: -1100px;
+  }
+
+  #degas_picture{
+      margin-top: -850px;
+      height: 1000px;
   }
 
   .red_line_home{
@@ -20,7 +43,64 @@ body {
   }
 
 
-  /*EVERYTHING HERE IS FOR THE HAMBURGER HOME PAGE */
+   #profile_pic{
+    margin-top: 350px;
+     height: 1100px;
+     margin-left: 75vw;
+    }
+
+    .red_line_right{
+        background-color: #923a21;
+        width:100px;
+        height: 1200px;
+        margin-left: 95.25vw;
+        margin-top: -500px;
+    }
+
+    .red_line_left{
+        background-color: #923a21;
+        width:100px;
+        height: 1200px;
+        margin-top: -20px;
+    }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*EVERYTHING HERE IS FOR THE HAMBURGER HOME PAGE */
 
   .hamburger {
     margin: 30px;
@@ -110,3 +190,4 @@ body {
   .menu_close:hover .line {
     background-color: red;
   }
+  

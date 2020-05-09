@@ -20,6 +20,217 @@ body {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+  .red_lines{
+      margin-top: -1900px;
+  }
+
+  .red_lines_2{
+      margin-top: -2200px;
+  }
+  
+
+  .red_lines_3{
+      margin-top:-1400px;
+  }
+
+  .red_line_right{
+    background-color: #923a21;
+    width:100px;
+    height: 1000px;
+    margin-left: 95.25vw;
+    margin-top: -200px;
+  }
+  
+  .red_line_left{
+    background-color: #923a21;
+    width:100px;
+    height: 1000px;
+    margin-top: -300px;
+  }
+
+  .red_line_horizontal_right{
+      background-color: #923a21 ;
+      height:100px;
+      width:700px;
+      margin-left: 70vw;
+      margin-top: -500px;
+  }
+  .red_line_horizontal_left{
+    background-color: #923a21 ;
+    height:100px;
+    width:700px;
+    margin-top: -200px;
+}
+
+
+
+
+  .commissions_text{
+      color: #6b724e;
+      font-size: 40pt;
+      margin-top: 1200px;
+      margin-left: 300px;
+  }
+
+  .commish{
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      background-color:#6b724e;
+      height: 600px;
+      width: 1000px;
+  }
+
+  .image{
+      margin-top: -340px;
+      margin-left: 450px;
+  }
+
+  .title{
+    color: #e4c5a7;
+    font-size: 40pt;
+    margin-left: 15px;
+    text-align: right;
+    margin-right: 575px;
+  }
+
+  .details{
+    color: #e4c5a7;
+    font-size: 15pt;
+    margin-left: 15px;
+    text-align: right;
+    margin-right: 575px;
+  }
+
+  .commish_grid{
+      display:grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      margin-left: 25vw;
+      grid-gap: 50px;
+    
+  }
+
+  .info_text{
+    color: #6b724e;
+    font-size: 30pt;
+    text-align: right;
+    margin-right: 200px;
+  }
+
+
+
+
+
+
+
+
+
+
+  .favorites_text{
+    color: #6b724e;
+    font-size: 40pt;
+    margin-left: 300px;
+}
+
+
+.fav_grid{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 25vw;
+    grid-gap: 50px;
+}
+
+.fav{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color:#6b724e;
+    height: 600px;
+    width: 1000px;
+}
+
+#jordan{
+    height: 660px;
+}
+
+#duplicitous{
+    margin-top: 40px;
+    height: 375px;
+}
+
+#cherys{
+    height:550px;
+}
+
+#crucifixion{
+    height:400px;
+}
+
+
+
+
+
+.redbubble{
+    color: #6b724e;
+    font-size: 40pt;
+    margin-left: 300px;
+}
+
+.in_shop{
+    display:grid;
+    grid-gap:40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 20vw;
+}
+
+#feelings{
+    margin-left: -10vw;
+}
+
+#lovedoes{
+    margin-left:10vw;
+    margin-top: 60px;
+}
+
+#afterthought{
+    margin-left:-10vw;
+}
+
+#love{
+    margin-left:10vw;
+    margin-top:40px;
+}
+
+.redbubble_link{
+    height: 100px;
+    width: 500px;
+    background-color: #6b724e ;
+    font-size: 20pt;
+    text-align: center;
+    margin-left:70vw;
+    margin-top: 30px;
+}
+
+a {
+   color: #e4c5a7;
+
+}
+
+
+
+
+
+
+
   /*EVERYTHING HERE IS FOR THE HAMBURGER HOME PAGE */
 
   .hamburger {

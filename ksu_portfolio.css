@@ -1,0 +1,311 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fca815;
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  .hello{
+      margin-top: -1100px;
+      margin-left:30vw;
+      color:#6b724e;
+      font-size:150pt;
+  }
+
+  .red_line_home{
+      background-color: #923a21;
+      width:100px;
+      height: 1200px;
+  }
+
+
+
+
+
+  .red_lines{
+    margin-top: -1900px;
+}
+
+.red_lines_2{
+    margin-top: -2200px;
+}
+
+
+.red_lines_3{
+    margin-top:-1400px;
+}
+
+.red_line_right{
+  background-color: #923a21;
+  width:100px;
+  height: 1000px;
+  margin-left: 95.25vw;
+  margin-top: -200px;
+}
+
+.red_line_left{
+  background-color: #923a21;
+  width:100px;
+  height: 1000px;
+  margin-top: -300px;
+}
+
+.red_line_horizontal_right{
+    background-color: #923a21 ;
+    height:100px;
+    width:700px;
+    margin-left: 70vw;
+    margin-top: -500px;
+}
+.red_line_horizontal_left{
+  background-color: #923a21 ;
+  height:100px;
+  width:700px;
+  margin-top: -200px;
+}
+
+
+
+
+
+
+
+
+.draw_position{
+    margin-left: 20vw;
+    margin-top: 1200px;
+}
+.draw_words{
+    color: #6b724e;
+    font-size: 40pt;
+    margin-top: 1200px;
+    margin-left: -200px;
+}
+
+.drawings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#draw_2{
+    margin-right: 500px;
+}
+
+#draw_7{
+    margin-left: 100px;
+    margin-top:-100px;
+}
+
+#draw_5{
+    margin-left:100px;
+    margin-top: -100px;
+}
+
+#draw_8{
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+.compositions{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    margin-left:30vw;
+
+}
+
+.twod_description{
+    color: #6b724e;
+    font-size: 40pt;
+    margin-left: 69vw;
+}
+
+#comp_2{
+    margin-left:-10vw;
+    margin-top: 300px
+}
+
+.type_description{
+    color: #6b724e;
+    font-size: 40pt;
+    margin-left: 10vw;
+}
+
+.type_descriptioning{
+    color: #6b724e;
+    font-size: 20pt;
+    margin-left: 10vw;
+}
+
+.dxmedia_description{
+    color: #6b724e;
+    font-size: 20pt;
+    margin-left: 10vw;
+    text-align: right;
+    margin-right: 250px;
+}
+
+.compositions_2{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-left:50vw;
+    grid-gap: 40px;
+}
+
+#type_2{
+    margin-left:-55vw;
+    margin-top: 250px;
+}
+
+.compositions_3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 400px;
+}
+
+#media_1{
+    margin-left:-200px;
+    margin-top: 140px;
+}
+
+#media_4{
+    margin-left:-200px;
+}
+
+.dxmedia{
+    color: #6b724e;
+    font-size: 40pt;
+    margin-left: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*EVERYTHING HERE IS FOR THE HAMBURGER HOME PAGE */
+
+  .hamburger {
+    margin: 30px;
+    margin-top: -1020px;
+    width: 40px;
+    height: 35px;
+    z-index: 10;
+  }
+  .hamburger .line {
+    width: 40px;
+    height: 5px;
+    background-color: #e4c5a7;
+    display: block;
+    margin: 4px auto;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hamburger:hover .line {
+    background-color: yellow;
+  }
+  
+  /* menu style */
+  .menu_hidden .menu {
+    /* THE STARTING POSITION SO THAT THE MENU IS HIDDEN */
+    left: -60vw;
+  }
+  
+  .menu {
+    /* WIDTH SHOULD MATCH THE AMOUNT IT IS HIDDEN BY */
+    width: 60vw;
+    height: 100vh;
+    background-color: #6b724e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    -webkit-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    transition: all 0.9s ease-in-out;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    color: blue;
+  }
+  
+  /* CLOSE ICON */
+  .menu_close {
+    position: absolute;
+    right: 45px;
+    top: 20px;
+  }
+  
+  .menu_close .line {
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    display: block;
+    margin: 8px auto;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .menu_close .line:nth-of-type(1) {
+    transform: rotate(-45deg);
+    position: absolute;
+  }
+  
+  .menu_close .line:nth-of-type(2) {
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  
+  .menu_close:hover .line {
+    background-color: red;
+  }

@@ -10,7 +10,7 @@ body {
       margin-top: -1000px;
       margin-left:20vw;
       color:#6b724e;
-      font-size:150pt;
+      font-size:125pt;
   }
 
 
@@ -59,33 +59,6 @@ body {
 
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -94,7 +67,7 @@ body {
 
   .hamburger {
     margin: 30px;
-    margin-top: -850px;
+    margin-top: -740px;
     width: 40px;
     height: 35px;
     z-index: 10;

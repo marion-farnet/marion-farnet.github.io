@@ -10,7 +10,7 @@ body {
       margin-top: -1100px;
       margin-left:30vw;
       color:#6b724e;
-      font-size:150pt;
+      font-size:125pt;
   }
 
   .red_line_home{
@@ -176,12 +176,12 @@ body {
 }
 
 #media_1{
-    margin-left:-200px;
+    margin-left:-100px;
     margin-top: 140px;
 }
 
 #media_4{
-    margin-left:-200px;
+    margin-left:-100px;
 }
 
 .dxmedia{
@@ -223,7 +223,7 @@ body {
 
   .hamburger {
     margin: 30px;
-    margin-top: -1020px;
+    margin-top: -865px;
     width: 40px;
     height: 35px;
     z-index: 10;

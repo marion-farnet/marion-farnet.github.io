@@ -268,13 +268,13 @@ body {
     display: block;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #e4c5a7;
     font-size: 3em;
     text-decoration: none;
   }
   
   .menu a:hover {
-    color: blue;
+    color: #fca815;
   }
   
   /* CLOSE ICON */

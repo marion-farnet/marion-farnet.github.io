@@ -333,3 +333,155 @@ body {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+
+
+     /* tablet size 768px x 1024px edits*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+
+  .hello{
+    margin-top: -1000px;
+    margin-left:12vw;
+    color:#6b724e;
+    font-size:100pt;
+  }
+
+  .hamburger {
+    margin: 30px;
+    margin-top: -800px;
+    width: 40px;
+    height: 35px;
+    z-index: 10;
+  }
+
+  .red_lines{
+    margin-top: -2000px;
+  }
+  
+  .red_line_right{
+    background-color: #923a21;
+    width:75px;
+    height: 1000px;
+    margin-left: 95.25vw;
+    margin-top: -200px;
+  }
+  
+  .red_line_left{
+    background-color: #923a21;
+    width:75px;
+    height: 1000px;
+  }
+
+  .draw_words{
+    font-size: 30pt;
+  }
+
+  .drawings{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 250px;
+}
+
+#draw_5{
+  margin-top: 75px;
+}
+#draw_4{
+  margin-top: -50px;
+}
+
+.twod_description{
+  color: #6b724e;
+  font-size: 30pt;
+  margin-left: 55vw;
+}
+.dxmedia_description{
+  color: #6b724e;
+  font-size: 15pt;
+  margin-left: 20vw;
+  text-align: right;
+  margin-right: 150px;
+}
+.compositions{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr;
+  margin-left:10vw;
+
+}
+#comp_2{
+  margin-left:-10vw;
+  margin-top: 445px
+}
+
+.type_description{
+  color: #6b724e;
+  font-size: 30pt;
+  margin-left: 10vw;
+}
+
+.type_descriptioning{
+  color: #6b724e;
+  font-size: 15pt;
+  margin-left: 10vw;
+}
+
+.compositions_2{
+  display:grid;
+  grid-template-rows:1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-left:45vw;
+  grid-gap: 40px;
+}
+
+#type_2{
+  margin-left:-75vw;
+  margin-top: 475px;
+}
+
+.red_lines{
+  margin-top: -2300px;
+}
+
+.red_lines_2{
+  margin-top: -2000px;
+}
+.red_lines_3{
+  margin-top: -2200px;
+}
+
+.dxmedia{
+  font-size: 30pt;
+}
+
+.dxmedia_description{
+  font-size: 15pt;
+  margin-left: 300px;
+}
+
+.compositions_3{
+  margin-left: 10vw;
+}
+
+#media_2{
+  margin-left:-100px;
+}
+
+#media_4{
+  margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}

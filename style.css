@@ -115,4 +115,37 @@ body {
 
 
 
+
+
+
+/* tablet size 768px x 1024px edits*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+
+  .hello{
+    margin-top: -1000px;
+    margin-left:20vw;
+    color:#6b724e;
+    font-size:150pt;
+}
+
+
+}
+
+
+
+ /* Phone Styles width 767px */
+ @media screen and (max-width: 767px) {
+  .hello{
+    margin-top: -1000px;
+    margin-left:20vw;
+    color:#6b724e;
+    font-size:30pt;
+}
+
+
+}
+
+
+
  

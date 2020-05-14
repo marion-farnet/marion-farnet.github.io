@@ -215,3 +215,62 @@ body {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+
+
+  /* tablet size 768px x 1024px edits*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+
+  .about{
+    margin-top: -1100px;
+    margin-left:20vw;
+    color:#6b724e;
+    font-size:150pt;
+}
+#profile_pic{
+  margin-top: 400px;
+   height: 750px;
+   margin-left: 67vw;
+   
+  }
+
+  .hamburger {
+    margin: 30px;
+    margin-top: -750px;
+    width: 40px;
+    height: 35px;
+    z-index: 10;
+  }
+
+
+  .about_info{
+  margin-top: -950px;
+  margin-left:12vw;
+  margin-right:10vw;
+  color:#6b724e;
+  font-size:35pt;
+  text-align: center;
+}
+
+.about_jpii{
+  margin-left:50vw;
+  margin-right:9vw;
+  color:#6b724e;
+  font-size:15pt;
+  text-align: right;
+  margin-top: -1000px;
+}
+
+#degas_picture{
+  margin-top: -700px;
+  height: 900px;
+}
+
+
+
+
+
+
+}

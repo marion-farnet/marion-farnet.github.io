@@ -341,3 +341,149 @@ a {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+
+   /* tablet size 768px x 1024px edits*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+
+  .hello{
+    margin-top: -1100px;
+    margin-left:12vw;
+    color:#6b724e;
+    font-size:125pt;
+}
+
+.commissions_text{
+  color: #6b724e;
+  font-size: 30pt;
+  margin-top: 1200px;
+  margin-left: 300px;
+}
+
+.title{
+color: #e4c5a7;
+font-size: 30pt;
+margin-left: 15px;
+text-align: left;
+margin-right: 575px;
+}
+
+
+.details{
+color: #e4c5a7;
+font-size: 15pt;
+margin-left: 15px;
+text-align: left;
+margin-right: 575px;
+}
+
+.commish_grid{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 10vw;
+  grid-gap: 50px;
+}
+
+.commish{
+  width: 800px;
+}
+
+.image{
+  margin-left: 250px;
+}
+
+.info_text{
+  font-size: 20pt;
+}
+
+.red_lines{
+  margin-top: -2000px;
+}
+
+.red_line_right{
+  background-color: #923a21;
+  width:75px;
+  height: 1000px;
+  margin-left: 95.25vw;
+  margin-top: -200px;
+}
+
+.red_line_left{
+  background-color: #923a21;
+  width:75px;
+  height: 1000px;
+}
+
+.favorites_text{
+  font-size: 30pt;
+
+}
+
+.fav_grid{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-left: 10vw;
+  grid-gap: 50px;
+}
+
+.fav{
+  width:850px;
+}
+
+#jordan{
+  height: 650px;
+}
+
+#duplicitous{
+  margin-top: 40px;
+  margin-left: 60px;
+  height: 375px;
+}
+
+#cherys{
+  height:525px;
+  margin-left:60px;
+}
+
+#crucifixion{
+  height:400px;
+  margin-left: 60px;
+}
+
+.redbubble{
+  color: #6b724e;
+  font-size: 30pt;
+  margin-left: 300px;
+}
+
+.in_shop{
+  display:grid;
+  grid-gap:40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 5vw;
+}
+
+#lovedoes{
+  margin-left:5vw;
+  margin-top: 60px;
+}
+
+.redbubble_link{
+  height: 100px;
+  width: 500px;
+  background-color: #6b724e ;
+  font-size: 20pt;
+  text-align: center;
+  margin-left:40vw;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+}

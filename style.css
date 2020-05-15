@@ -138,11 +138,17 @@ body {
  @media screen and (max-width: 767px) {
   .hello{
     margin-top: -1000px;
-    margin-left:20vw;
+    margin-left:25vw;
     color:#6b724e;
-    font-size:30pt;
+    font-size:100pt;
 }
-
+.hamburger {
+  margin: 30px;
+  margin-top: -625px;
+  width: 40px;
+  height: 35px;
+  z-index: 10;
+}
 
 }
 

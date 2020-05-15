@@ -70,23 +70,6 @@ body {
 
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -267,10 +250,70 @@ body {
   margin-top: -700px;
   height: 900px;
 }
+}
 
 
 
 
+
+
+
+ /* Phone Styles width 767px */
+ @media screen and (max-width: 767px) {
+
+
+  .about{
+    margin-top: -1000px;
+    margin-left:25vw;
+    color:#6b724e;
+    font-size:100pt;
+}
+
+.hamburger {
+  margin: 30px;
+  margin-top: -625px;
+  width: 40px;
+  height: 35px;
+  z-index: 10;
+}
+
+#profile_pic{
+  margin-top: 450px;
+   height: 650px;
+   margin-left: 67vw;
+   
+  }
+
+  .about_info{
+    margin-top: -900px;
+  margin-left:11vw;
+  margin-right:10vw;
+  color:#6b724e;
+  font-size:25pt;
+  text-align: center;
+}
+
+.about_jpii{
+  margin-left:40vw;
+  margin-right:9vw;
+  color:#6b724e;
+  font-size:15pt;
+  text-align: right;
+  margin-top: -1100px;
+}
+#degas_picture{
+  margin-top: -700px;
+  height: 600px;
+}
+
+.red_line_left{
+  background-color: #923a21;
+  width:75px;
+  height: 1200px;
+  margin-top: -20px;
+}
 
 
 }
+
+

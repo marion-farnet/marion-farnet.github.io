@@ -204,6 +204,15 @@ body {
     font-size: 30pt;
     margin-left: 60vw;
   }
+
+  .menu a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #e4c5a7;
+    font-size: 2em;
+    text-decoration: none;
+  }
 }
 
 
@@ -222,6 +231,15 @@ body {
   width: 40px;
   height: 35px;
   z-index: 10;
+}
+
+.menu a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: #e4c5a7;
+  font-size: 2em;
+  text-decoration: none;
 }
 
 .chat_info{
